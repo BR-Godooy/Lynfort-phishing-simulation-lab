@@ -1,6 +1,6 @@
 # Lynfort — Phishing Simulation Lab
 
-**Projeto desenvolvido por Victor Godoi como entrega do laboratório da DIO, com implementação própria de um cenário educativo da Lynfort.**
+**Projeto desenvolvido por Victor Godoy como entrega do laboratório da DIO, com implementação própria de um cenário educativo da Lynfort.**
 
 Material produzido com finalidade exclusivamente **educacional e defensiva**.
 
@@ -129,9 +129,15 @@ Os testes de janela reduzida e teclado devem ser repetidos após mudanças de la
 
 O roteiro está em [Cenário 01](lab/cenarios/cenario-01.md).
 
-## Capturas da página educativa
+## Demonstração visual do laboratório
 
-As imagens abaixo mostram a página em sequência de leitura.
+A sequência começa na mensagem fictícia. Ao clicar em “Revisar cadastro”, o visitante abre a página educativa da Lynfort, que explica os sinais suspeitos e como verificar uma solicitação. O clique faz parte da simulação; não houve captura de dados ou comprometimento de conta.
+
+### Início — Mensagem simulada
+
+![Mensagem fictícia da Aurora Comércio com o botão Revisar cadastro](screenshots/mensagem-simulada-lynfort.png)
+
+As três imagens seguintes mostram a página educativa em sequência de leitura.
 
 ### Parte 1 — Apresentação
 
@@ -195,8 +201,9 @@ A referência do desafio orientou o estudo. O cenário, as páginas e a document
 
 ## Autor
 
-**Victor Godoi** — [BR-Godooy no GitHub](https://github.com/BR-Godooy).
+**Victor Godoy** — [BR-Godooy no GitHub](https://github.com/BR-Godooy).
 
 Projeto desenvolvido como entrega do laboratório da **DIO**, no contexto de aprendizagem e construção do portfólio da **Lynfort**.
 
 **Material produzido com finalidade exclusivamente educacional e defensiva.**
+
