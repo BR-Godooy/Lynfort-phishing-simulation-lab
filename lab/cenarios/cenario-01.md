@@ -45,3 +45,25 @@ deve ser comparado com os canais oficiais da organização.
 ## Resultados
 Ainda não executado como cenário completo.
 Não há métricas de envio, clique ou participação nesta versão.
+
+## Validação da página educativa
+
+Testes manuais realizados no navegador do Kali Linux.
+
+- Mensagem simulada abriu corretamente.
+- Botão "Revisar cadastro" abriu a página educativa.
+- Conteúdo e orientações apareceram corretamente.
+- Link de retorno abriu a mensagem simulada.
+- Janela reduzida manteve o conteúdo legível, sem cortes
+  ou rolagem horizontal.
+- Link de retorno recebeu destaque com Tab e funcionou com Enter.
+
+Todos os testes acima passaram.
+
+## Evidências
+
+Capturas da página educativa, em ordem de leitura:
+
+- screenshots/pagina-educativa-01.png
+- screenshots/pagina-educativa-02.png
+- screenshots/pagina-educativa-03.png

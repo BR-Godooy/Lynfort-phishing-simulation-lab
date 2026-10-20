@@ -2,12 +2,192 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Lynfort — Laboratório</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lynfort — Treinamento de Segurança</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px 20px;
+      background: #0b1220;
+      color: #e5e7eb;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .marca {
+      color: #5eead4;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+
+    h1 {
+      line-height: 1.2;
+    }
+
+    h2 {
+      color: #99f6e4;
+      line-height: 1.3;
+    }
+
+    section {
+      margin-top: 24px;
+      padding: 24px;
+      background: #152238;
+      border: 1px solid #334155;
+      border-radius: 12px;
+    }
+
+    .aviso {
+      padding: 16px;
+      color: #fef3c7;
+      background: #422f12;
+      border-left: 4px solid #fbbf24;
+      border-radius: 6px;
+    }
+
+    li {
+      margin-bottom: 16px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 12px 20px;
+      color: #0b1220;
+      background: #5eead4;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #fbbf24;
+      outline-offset: 4px;
+    }
+
+    footer {
+      margin-top: 28px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-  <h1>LYNFORT</h1>
-  <h2>Laboratório de conscientização sobre phishing</h2>
-  <p>Esta é uma página educativa em ambiente fictício.</p>
-  <p>Nunca informe senhas ou dados pessoais neste laboratório.</p>
+  <main>
+    <header>
+      <p class="marca">LYNFORT</p>
+      <h1>Você identificaria uma mensagem suspeita?</h1>
+      <p>Laboratório de conscientização em segurança da informação.</p>
+    </header>
+
+    <p class="aviso">
+      Este é um exercício educativo com uma empresa fictícia.
+      Não digite senhas ou informações pessoais neste laboratório.
+    </p>
+
+    <section>
+      <h2>O que aconteceu?</h2>
+      <p>
+        Na mensagem simulada da Aurora Comércio, o botão
+        “Revisar cadastro” leva a esta página de treinamento.
+        Nenhuma atualização cadastral é realizada.
+      </p>
+      <p>
+        Em uma tentativa real de phishing, uma mensagem pode
+        tentar induzir você a abrir um endereço perigoso ou
+        fornecer informações sensíveis.
+      </p>
+    </section>
+
+    <section>
+      <h2>Analisando a mensagem</h2>
+      <ul>
+        <li>
+          <strong>Urgência:</strong> a mensagem exige uma
+          atualização até o fim do dia, pressionando uma
+          decisão rápida.
+        </li>
+        <li>
+          <strong>Ameaça:</strong> menciona suspensão do
+          acesso para incentivar o clique.
+        </li>
+        <li>
+          <strong>Pedido inesperado:</strong> não explica
+          por que a atualização é necessária.
+        </li>
+        <li>
+          <strong>Remetente:</strong> o nome “Suporte” não
+          comprova a origem. Confira o endereço completo
+          e confirme a solicitação por um canal conhecido.
+        </li>
+        <li>
+          <strong>Destino do link:</strong> o texto do botão
+          não garante para onde ele leva. Verifique o endereço
+          antes de abrir.
+        </li>
+      </ul>
+      <p>
+        Esses sinais pedem atenção. Eles não comprovam,
+        isoladamente, que uma mensagem seja maliciosa.
+      </p>
+      <p>
+        O domínio aurora.example foi escolhido para representar
+        uma empresa fictícia neste exercício.
+      </p>
+    </section>
+
+    <section>
+      <h2>O que fazer em uma situação real?</h2>
+      <ol>
+        <li>
+          Evite agir sob pressão ou fornecer informações
+          por causa de uma mensagem inesperada.
+        </li>
+        <li>
+          Acesse o serviço pelo endereço oficial que você
+          já conhece.
+        </li>
+        <li>
+          Confirme a solicitação com a equipe responsável
+          por um canal conhecido.
+        </li>
+        <li>
+          Utilize o canal de denúncia definido pela organização.
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Revise o exemplo</h2>
+      <p>
+        Volte à mensagem e procure os sinais apresentados
+        neste treinamento.
+      </p>
+      <a href="mensagem.html">Voltar à mensagem simulada</a>
+    </section>
+
+    <footer>
+      <p>
+        Lynfort — Phishing Simulation Lab.
+        Ambiente fictício de treinamento.
+      </p>
+      <p>
+        Esta versão não possui formulário, rastreamento
+        de cliques ou envio de e-mails.
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
